@@ -10,7 +10,7 @@ namespace ptpmql.Controllers
         return View();
         
     }
-        public IActionResult Links()
+        public IActionResult mmb()
     {
         return View();
     }
