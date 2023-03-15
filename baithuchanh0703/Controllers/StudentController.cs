@@ -21,6 +21,10 @@ namespace baithuchanh0703.Controllers
         {
             return View();
         }
+        public IActionResult Tinhtong()
+        {
+            return View();
+        }
         public IActionResult Tinhtong(string Number)
         {
             int so = Convert.ToInt32(Number);
